@@ -4,3 +4,4 @@ using BenchmarkDotNet.Running;
 using LinqSpeedDemo;
 
 BenchmarkRunner.Run<ListMaximumBenchmark>();
+BenchmarkRunner.Run<LazySequenceMaximumBenchmark>();
