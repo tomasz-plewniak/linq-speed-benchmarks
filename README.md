@@ -22,3 +22,11 @@ Results for LazySequenceMaximumBenchmark:
 | ForLoop   | 796.2 us | 11.74 us | 13.05 us |  4.75 |    0.09 |
 | WhileLoop | 198.3 us |  2.36 us |  1.97 us |  1.18 |    0.01 |
 | Linq      | 167.7 us |  1.83 us |  1.43 us |  1.00 |    0.01 |
+
+Results for ComplexOperationsBenchmark:
+
+| Method    |     Mean |    Error |   StdDev | Ratio | RatioSD |
+|-----------|---------:|---------:|---------:|------:|--------:|
+| ForLoop   | 811.4 us | 12.92 us | 21.94 us |  4.69 |    0.15 |
+| WhileLoop | 247.5 us |  4.69 us |  4.61 us |  1.43 |    0.04 |
+| Linq      | 173.0 us |  3.21 us |  3.00 us |  1.00 |    0.02 |
